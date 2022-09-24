@@ -1,13 +1,18 @@
+package com.raydonmuregi.demo;
 
-/**
- * Write a description of var here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
+import javafx.geometry.Point2D;
+import javafx.geometry.Point3D;
+import javafx.scene.effect.Light;
+
+import java.util.Date;
+
 public class Main {
-    public static void main (String[] args){
-        System.out.println("Hello World");
-    }
+    public static void main (String[] args) {
+        Point2D point1 = new Point2D(1,1);
+        Point2D point2 = point1;
 
+
+        System.out.println(point2);
+    }
 }
