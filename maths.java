@@ -41,3 +41,5 @@ public class Main {
       System.out.println(w);
     } 
 }
+
+//Concept 4: MATH METHODS
