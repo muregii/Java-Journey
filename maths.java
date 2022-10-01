@@ -34,6 +34,10 @@ public class Main {
        int y = (int) x + 2; //2.0 /* explicit casting of x. Must be compatible, meaning if x was String, you could not cast x to an integer*/
         // to convert a string to an integer, we use something called "parsing"
         String z = "4";
+      String a = "3.14";
         int c = Integer.parseInt(z) + 3;
+        double w = Double.parseDouble(a)
         System.out.println(z);
-    }
+      System.out.println(w);
+    } 
+}
