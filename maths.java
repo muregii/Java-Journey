@@ -43,3 +43,28 @@ public class Main {
 }
 
 //Concept 4: MATH METHODS
+
+public class Main {
+    public static void main(String[] args) {
+        int result = Math.round(1.1F); // rounds a floating point number to the nearest whole number
+       int result1 = (int)Math.ceil(1.1F);//returns the smallest integer that is >= to the given number
+        int result2 = (int)Math.floor(1.1F);// returns the largest integer that is <= the given number
+        int result3 = Math.max(91,19); //returns the largest number
+        int result4 = Math.min(34, 25);//returns the smallest number
+        int result5 = (int)(Math.random() *100); // returns a random number within the specified range. Must be a double because it returns decimal values
+/*int has 4 bytes of memory, you'll have to explicitly cast (int)Math.round(Math.random() *100) to store your random value in an integer
+*  int result5 = (int)Math.random() *100 is wrong because you are applying the type directly on th round method.
+* int result5 = (int)(Math.round() *100 , wrapping parenthesis on the entire expression
+*
+* */
+        System.out.println(result);
+        System.out.println(result1);
+        System.out.println(result2);
+        System.out.println(result3);
+        System.out.println(result4);
+        System.out.println(result5);
+
+    }
+}
+
+
