@@ -16,3 +16,20 @@ public class Main{
     }
 
 }
+
+package com.raydonmuregi.demo;
+
+import java.text.NumberFormat;
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        //Intermediate code
+        int income = 120_000;
+        boolean hasHighIncome = false;
+        if (income > 100_000)
+            hasHighIncome = true;
+
+    }
+
+}
