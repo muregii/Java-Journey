@@ -13,10 +13,10 @@ public class Main{
 
 }
 
-package com.raydonmuregi.demo;
+/*package com.raydonmuregi.demo;
 
 import java.text.NumberFormat;
-import java.util.Scanner;
+import java.util.Scanner;*/
 
 public class Main{
     public static void main(String[] args){
@@ -28,16 +28,16 @@ public class Main{
     
 }
 
-package com.raydonmuregi.demo;
+/*package com.raydonmuregi.demo;
 
 import java.text.NumberFormat;
-import java.util.Scanner;
+import java.util.Scanner;*/
 
 public class Main{
     public static void main(String[] args){
       boolean hasGoodConduct = true;
       boolean hasHighGPA = true;
-      boolean isEligible = hasHighGPA || hasGoodConduct; // Logocal OR operator
+      boolean isEligible = hasHighGPA || hasGoodConduct; // Logical OR operator
       System.out.println(isEligible);
 
     }
