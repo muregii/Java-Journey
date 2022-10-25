@@ -16,3 +16,19 @@ public class Main{
         }
     }
 
+package com.raydonmuregi.demo;
+
+import java.text.NumberFormat;
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+      String [] fruits = {"Apple", "Mango","Orange"};
+      for(int i = 0; i < fruits.length; i++)
+          System.out.println(fruits[i]);
+      //For each loop - This is a forward only loop
+      for (String fruit : fruits)
+          System.out.println(fruit);
+    }
+}
+
