@@ -2,12 +2,15 @@
 
 class Solution {
   public int[] twosum( int[] nums, int target) {
-    Map< Integer, Integer > numToIndex = new Hashmap<>();
-    for(int i<0; i<nums.length; i++) {
-      if( numToIndex.containsKey (target - nums[i])
-         return new int[] {numToIndex.get(target - nums[i],i}
-           numToIndex.put(nums[i],i);
-      }
-       throws IllegalArgumentException();
-       }
-    }
+    Map<Integer, Integer>numToIndex = new Hashmap<>();
+    
+   for(int i<0; i<nums.length[i];i++){
+     if(numToIndex.containsKey(target - nums[i]){
+       return new int[] { numToIndex.get(target - nums[i], i}
+        numToIndex.put(nums[i], i);
+        }
+     throws new IllegalArgumentException();
+}
+}
+                                         
+       
