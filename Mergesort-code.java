@@ -9,3 +9,19 @@ return list;
 }
 
 //Merge helper methods to create new lists needed.
+public static List<String> merge(List<String> listA, List<String> list B) {
+List<String> merged = new ArrayList<>();
+  int indexA = 0;
+  int indexB = 0;
+  while(indexA < listA.size() && indexB < listB.size()) {
+  if(listA.get(indexA).compareTo(listB.get(indexB) <= 0) {
+  merged.add(listA.get(indexA));
+    indexA++;
+  }
+     else{
+     merged.add(listB.get(indexB));
+       indexB++;
+     }
+  }
+
+}
