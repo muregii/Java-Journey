@@ -8,7 +8,7 @@ return list;
   return merge(firstHalfSorted, secondHalfSorted);
 }
 
-//Merge helper methods to create new lists needed. 
+//Merge helper methods to create new lists needed. Not recursive.
 public static List<String> merge(List<String> listA, List<String> list B) {
 List<String> merged = new ArrayList<>();
   int indexA = 0;
