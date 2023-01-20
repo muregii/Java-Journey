@@ -11,8 +11,8 @@ for(int k=0;k<x.length;k++) {
      !isInside(x2,y2,x[k],y[k],r[k]) {
         crosses ++;
      }
-   if(isInside(x1,y1,x[k],y[k],r[k]) &&  !isInside(x2,y2,x[k],y[k],r[k]) {
-         return crosses
+   if(isInside(x1,y1,x[k],y[k],r[k]) &&  isInside(x2,y2,x[k],y[k],r[k]) {
+         return crosses;
    }
      
 }
