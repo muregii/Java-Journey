@@ -4,7 +4,7 @@ he always tries to cross the fewest number of district borders as possible becau
 Imagine Circles Country as an infinite plane. You are given int[] x and int[] y and int[] r, where (x[i],y[i]) are the coordinates of the i-th district's center and r[i] is its radius. Qatam is currently at point (x1,y1) and he needs to get to point (x2,y2). 
 Neither of these points lies on a district border. Return the minimal number of district borders he must cross to get to his destination.*/
 
-//pseudosolution 111/124 testcases
+//pseudosolution 111/228 testcases
 int crosses = 0;
 for(int k=0;k<x.length;k++) {
   if(isInside(x1,y1,x[k],y[k],r[k]) && 
