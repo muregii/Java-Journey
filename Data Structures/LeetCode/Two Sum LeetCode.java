@@ -6,9 +6,10 @@ class Solution {
     
    for(int i<0; i<nums.length[i];i++){
      if(numToIndex.containsKey(target - nums[i]){
-       return new int[] { numToIndex.get(target - nums[i], i}
+       return new int[] { numToIndex.get(target - nums[i]), i}
         numToIndex.put(nums[i], i);
         }
+        numToIndex.put(nums[i], i);
      throws new IllegalArgumentException();
 }
 }
