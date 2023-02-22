@@ -33,11 +33,10 @@ while (list != null) {
   list.next = rev;
   rev = list;
   list = temp;
-}
+  }
 return rev;
 }
 
-}
 
 
 
