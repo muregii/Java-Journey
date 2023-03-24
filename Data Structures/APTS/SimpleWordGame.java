@@ -1,5 +1,5 @@
 import java.util.*;
-
+//check video explanation @ https://youtu.be/2osmcG1Bt9I
 public class SimpleWordGame {
     public int points(String[] player, 
                       String[] dictionary) {
