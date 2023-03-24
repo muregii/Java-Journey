@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-//chech the video explanation of this code @ https://youtu.be/VqTTUwZyTE8
+//check the video explanation of this code @ https://youtu.be/VqTTUwZyTE8
 public class StringCuts {
 
     
