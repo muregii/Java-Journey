@@ -1,3 +1,5 @@
+//check the video explanation of this code @ https://youtu.be/mwcWCDfijZk
+
 public class Totality {
     public int sum (int[] a, String stype) {
        int value = 0;
